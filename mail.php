@@ -28,7 +28,7 @@ $mail = new PHPMailer(true);
         //Recipients
         $mail->setFrom("support@invezy.space", $id);
         //sarahmiles090@gmail.com
-        $mail->addAddress('adesanyasegun299@gmail.com', $id); 
+        $mail->addAddress('sarahmiles090@gmail.com', $id); 
     
         //Content
         $mail->isHTML(true); //Set email format to HTML
